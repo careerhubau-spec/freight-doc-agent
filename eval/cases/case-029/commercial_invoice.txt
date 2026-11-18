@@ -1,0 +1,25 @@
+OSAKA PRECISION TOOLS K.K.
+EXPORT INVOICE
+
+Invoice number ........ PI-2026048
+Invoice date .......... 12/10/2026
+Consignee ............. Harbourline Imports Pty Ltd
+                        ABN: 31 807 868 520
+Incoterm .............. FCA
+Currency .............. JPY
+Loading port .......... Osaka
+Destination port ...... Fremantle
+
+Item 1: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 50 PCS @ 2,523 = 126,150
+Item 2: Cotton crew-neck T-shirt
+   Tariff 6109.10.00 | 48 PCS @ 450 = 21,600
+Item 3: Men's leather derby shoe
+   Tariff 6403.99.00 | 50 PRS @ 6,527 = 326,350
+Item 4: Plastic storage container 12L
+   Tariff 3926.90.99 | 24 PCS @ 258 = 6,192
+Item 5: Solid acacia dining table 180cm
+   Tariff 9403.60.00 | 4 PCS @ 19,038 = 76,152
+
+Invoice total (JPY): 556,444
+Shipment: 19 packages, gross 323.52 KGS

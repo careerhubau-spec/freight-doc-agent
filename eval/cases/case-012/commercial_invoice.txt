@@ -1,0 +1,6 @@
+INVOICE CI-2026084 | 05/10/2026 | DAP | EUR
+From: Calzaturificio Monteverde S.r.l. (Italy)  To: Ironbark Outdoor Pty Ltd ABN 84736842504
+Route: La Spezia -> Brisbane | Made in Italy
+* Men's leather derby shoe; HS 6403.99.00; 100 PRS x 26,50 = 2.650,00
+Amount due: EUR 2.650,00
+Pkgs 10 / G.W. 91,84 kg

@@ -1,0 +1,26 @@
+OSAKA PRECISION TOOLS K.K.
+EXPORT INVOICE
+
+Invoice number ........ INV-2026686
+Invoice date .......... 13.09.2026
+Consignee ............. Westgate Kitchen Co Pty Ltd
+                        ABN: 14 052 028 321
+Incoterm .............. FCA
+Currency .............. JPY
+Loading port .......... Osaka
+Destination port ...... Brisbane
+Origin of goods ....... Japan
+
+Item 1: Electric drip coffee maker 1.5L
+   Tariff 8516.71.00 | 24 PCS @ 2,505 = 60,120
+Item 2: Laptop power adapter 65W
+   Tariff 8504.40.90 | 24 PCS @ 785 = 18,840
+Item 3: Cordless drill driver 18V
+   Tariff 8467.21.00 | 500 PCS @ 3,582 = 1,792,000
+Item 4: Wooden toy train set
+   Tariff 9503.00.90 | 200 SET @ 1,503 = 300,600
+Item 5: Plastic storage container 12L
+   Tariff 3926.90.99 | 24 PCS @ 254 = 6,096
+
+Invoice total (JPY): 2,177,656
+Shipment: 39 packages, gross 1,412.38 KGS

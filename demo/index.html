@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freight Doc Agent</title>
+<style>
+:root { --bg:#f6f7f9; --card:#fff; --ink:#16202c; --muted:#5d6b7a; --line:#dde2e8; --accent:#1f5fbf; --ok:#17803d; --okbg:#e6f4ea; --bad:#b42318; --badbg:#fdecea; --warn:#9a6700; --mono:ui-monospace,SFMono-Regular,Menlo,monospace; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0f141a; --card:#171e26; --ink:#e6ebf0; --muted:#93a1b0; --line:#2a3440; --accent:#6ea8ff; --ok:#4cc36f; --okbg:#12301c; --bad:#ff7b72; --badbg:#3a1614; --warn:#e3b341; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+header { padding:20px 24px 8px; }
+h1 { margin:0; font-size:22px; }
+header p { margin:4px 0 0; color:var(--muted); }
+main { display:grid; grid-template-columns:1.25fr 1fr; gap:16px; padding:16px 24px 32px; }
+@media (max-width:900px) { main { grid-template-columns:1fr; padding:12px 16px; } header { padding:16px 16px 4px; } }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+.bar { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:12px; }
+select, button { font:inherit; padding:7px 12px; border-radius:7px; border:1px solid var(--line); background:var(--card); color:var(--ink); }
+button.primary { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:600; cursor:pointer; }
+button:disabled { opacity:.5; cursor:wait; }
+label { display:block; font-weight:600; font-size:13px; color:var(--muted); margin:10px 0 4px; text-transform:uppercase; letter-spacing:.04em; }
+textarea { width:100%; min-height:220px; font:11.5px/1.45 var(--mono); padding:10px; border:1px solid var(--line); border-radius:7px; background:var(--bg); color:var(--ink); resize:vertical; white-space:pre; overflow:auto; }
+.hint { color:var(--muted); font-size:13px; margin:8px 0 0; }
+.steps { list-style:none; margin:0 0 16px; padding:0; }
+.steps li { display:flex; gap:10px; padding:8px 0; border-bottom:1px solid var(--line); }
+.steps li:last-child { border-bottom:0; }
+.dot { flex:0 0 22px; height:22px; border-radius:50%; border:2px solid var(--line); display:grid; place-items:center; font-size:12px; font-weight:700; color:var(--muted); }
+.steps li.active .dot { border-color:var(--accent); color:var(--accent); animation:pulse 1s infinite; }
+.steps li.done .dot { background:var(--ok); border-color:var(--ok); color:#fff; }
+.steps li.skip { opacity:.45; }
+@keyframes pulse { 50% { opacity:.4; } }
+.steps b { display:block; }
+.steps span { color:var(--muted); font-size:13px; }
+.status { font-size:18px; font-weight:700; padding:10px 14px; border-radius:8px; margin-bottom:12px; }
+.status.ready { background:var(--okbg); color:var(--ok); }
+.status.review { background:var(--badbg); color:var(--bad); }
+.flag { border-left:3px solid var(--bad); padding:6px 10px; margin:8px 0; background:var(--bg); border-radius:0 6px 6px 0; }
+.flag.warning { border-color:var(--warn); }
+.flag q { display:block; font:12.5px var(--mono); color:var(--muted); margin-top:3px; quotes:none; }
+table { width:100%; border-collapse:collapse; font-size:13px; margin-top:8px; }
+th, td { text-align:left; padding:5px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-weight:600; }
+td.n { text-align:right; font-variant-numeric:tabular-nums; }
+.wrap { overflow-x:auto; }
+.meta { color:var(--muted); font-size:13px; margin-top:12px; }
+.err { color:var(--bad); }
+h2 { font-size:15px; margin:16px 0 4px; }
+.brand { font-size:12px; font-weight:700; letter-spacing:.14em; color:var(--accent); margin-bottom:2px; }
+.by { font-size:13px; font-weight:600; color:var(--ink) !important; }
+.stats { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:10px; margin-top:12px; }
+.stats div { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; }
+.stats b { display:block; font-size:20px; }
+.stats span { color:var(--muted); font-size:12px; }
+@media (max-width:700px) { .stats { grid-template-columns:repeat(2, minmax(0,1fr)); } }
+footer { padding:0 24px 24px; color:var(--muted); font-size:13px; }
+footer b { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">AURA AI SYSTEMS</div>
+  <h1>Freight Doc Agent</h1>
+  <p>Reads a commercial invoice and packing list, keys the shipment entry, and flags discrepancies before they reach customs.</p>
+  <p class="by">Built by Phillip Chindamo · 20+ years freight operations · ex-WiseTech Global (CargoWise) &amp; Containerchain</p>
+  <div class="stats">
+    <div><b>97.6%</b><span>fields read correctly</span></div>
+    <div><b>29 / 29</b><span>planted faults caught</span></div>
+    <div><b>0</b><span>false alarms on clean shipments</span></div>
+    <div><b>~15s</b><span>per shipment</span></div>
+  </div>
+</header>
+<main>
+  <section class="card">
+    <div class="bar">
+      <select id="pick" aria-label="Sample shipment"></select>
+      <button class="primary" id="go">Check shipment</button>
+    </div>
+    <label for="inv">Commercial invoice</label>
+    <textarea id="inv" spellcheck="false"></textarea>
+    <label for="pl">Packing list</label>
+    <textarea id="pl" spellcheck="false"></textarea>
+    <p class="hint">Try it: change a quantity, a weight or a package count, then press Check shipment.</p>
+  </section>
+  <section class="card">
+    <ol class="steps" id="steps">
+      <li data-s="extract"><div class="dot">1</div><div><b>Read</b><span>Claude keys every field exactly as printed</span></div></li>
+      <li data-s="checked"><div class="dot">2</div><div><b>Check</b><span>Plain-code broker rules: maths, weights, packages, tariff codes, ABN, origin</span></div></li>
+      <li data-s="reread"><div class="dot">3</div><div><b>Re-read</b><span>Go back to the document for anything that failed and quote the printed text</span></div></li>
+      <li data-s="done"><div class="dot">4</div><div><b>Decide</b><span>Ready to lodge, or needs review with the evidence</span></div></li>
+    </ol>
+    <div id="out"><p class="meta">Pick a shipment and press Check shipment.</p></div>
+  </section>
+</main>
+<footer>Tested on 50 shipments across 8 supplier countries, 3 invoice layouts and EU number formats. Book a discovery call: <b>cal.com/aura-ai</b></footer>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+const label = { line_math:'line maths', total_mismatch:'total', weight_mismatch:'weight', package_mismatch:'packages', bad_hs:'tariff code', bad_abn:'ABN', gross_lt_net:'gross < net', missing_origin:'no origin' };
+
+async function loadCases() {
+  const cases = await (await fetch('/cases')).json();
+  $('#pick').innerHTML = cases.map((c) => `<option value="${c.id}">${c.id} · ${c.expected.length ? 'planted: ' + c.expected.map((e) => label[e] || e).join(', ') : 'clean'}</option>`).join('');
+  $('#pick').value = 'case-002';
+  await loadCase();
+}
+async function loadCase() {
+  const d = await (await fetch('/case/' + $('#pick').value)).json();
+  $('#inv').value = d.invoice; $('#pl').value = d.packing;
+  resetSteps(); $('#out').innerHTML = '<p class="meta">Press Check shipment.</p>';
+}
+function resetSteps() { document.querySelectorAll('#steps li').forEach((li) => (li.className = '')); }
+function mark(s, cls) { const li = document.querySelector(`#steps li[data-s="${s}"]`); if (li) li.className = cls; }
+
+function renderEntry(e) {
+  const row = (k, v) => `<tr><th>${k}</th><td>${esc(v ?? '—')}</td></tr>`;
+  return `<h2>Shipment entry</h2><div class="wrap"><table>
+    ${row('Invoice', `${e.invoice_number} · ${e.invoice_date}`)}
+    ${row('Shipper', `${e.shipper.name} (${e.shipper.country})`)}
+    ${row('Consignee', `${e.consignee.name} · ABN ${e.consignee.abn ?? '—'}`)}
+    ${row('Terms', `${e.incoterm} · ${e.currency} ${Number(e.total_invoice_value).toLocaleString()}`)}
+    ${row('Route', `${e.port_of_loading} → ${e.port_of_discharge}`)}
+    ${row('Origin', e.origin_country)}
+    ${row('Invoice says', `${e.invoice_packages ?? '—'} pkgs · ${e.invoice_gross_weight_kg ?? '—'} kg gross`)}
+    ${row('Packing list says', `${e.packing.packages ?? '—'} ${e.packing.package_type ?? ''} · ${e.packing.gross_weight_kg ?? '—'} kg gross · ${e.packing.net_weight_kg ?? '—'} kg net`)}
+  </table></div>
+  <div class="wrap"><table><tr><th>Line</th><th>Tariff</th><th class="n">Qty</th><th class="n">Price</th><th class="n">Total</th></tr>
+  ${e.lines.map((l) => `<tr><td>${esc(l.description)}</td><td>${esc(l.hs_code)}</td><td class="n">${l.quantity} ${esc(l.unit)}</td><td class="n">${Number(l.unit_price).toLocaleString()}</td><td class="n">${Number(l.line_total).toLocaleString()}</td></tr>`).join('')}
+  </table></div>`;
+}
+
+async function run() {
+  $('#go').disabled = true; resetSteps(); mark('extract', 'active');
+  $('#out').innerHTML = '<p class="meta">Claude is reading the documents…</p>';
+  const t0 = Date.now();
+  try {
+    const res = await fetch('/run', { method:'POST', headers:{ 'content-type':'application/json' }, body: JSON.stringify({ invoice: $('#inv').value, packing: $('#pl').value }) });
+    const reader = res.body.getReader(); const dec = new TextDecoder(); let buf = '';
+    for (;;) {
+      const { value, done } = await reader.read(); if (done) break;
+      buf += dec.decode(value, { stream:true });
+      let i; while ((i = buf.indexOf('\n')) >= 0) { handle(JSON.parse(buf.slice(0, i)), t0); buf = buf.slice(i + 1); }
+    }
+  } catch (e) { $('#out').innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+  $('#go').disabled = false;
+}
+
+let rereadRan = false;
+function handle(ev, t0) {
+  if (ev.step === 'checked') {
+    mark('extract', 'done'); mark('checked', 'done'); rereadRan = false;
+    const n = ev.issues.length;
+    $('#out').innerHTML = `<p class="meta">${n ? `${n} check${n > 1 ? 's' : ''} failed: ${ev.issues.map((i) => esc(i.message)).join('; ')}` : 'All checks passed.'}</p>` + renderEntry(ev.entry);
+  } else if (ev.step === 'reread') {
+    rereadRan = true; mark('reread', 'active');
+    $('#out').insertAdjacentHTML('afterbegin', `<p class="meta">Re-reading ${ev.fields.length} field(s) on the documents…</p>`);
+  } else if (ev.step === 'rechecked') {
+    mark('reread', 'done');
+  } else if (ev.step === 'done') {
+    if (!rereadRan) mark('reread', 'skip');
+    mark('done', 'done');
+    const ready = ev.status === 'ready';
+    $('#out').innerHTML = `<div class="status ${ready ? 'ready' : 'review'}">${ready ? '✓ Ready to lodge' : '⚠ Needs review'}</div>`
+      + ev.flags.map((f) => `<div class="flag ${f.severity}">${esc(f.message)}${f.evidence ? `<q>Document shows: ${esc(f.evidence)}</q>` : ''}</div>`).join('')
+      + (ev.trace.find((t) => t.step === 'reread')?.corrected.length ? `<p class="meta">Re-read corrected a misread: ${ev.trace.find((t) => t.step === 'reread').corrected.join(', ')}</p>` : '')
+      + renderEntry(ev.entry)
+      + `<p class="meta">${ev.usage.calls} call(s) to Claude · ${((Date.now() - t0) / 1000).toFixed(1)}s</p>`;
+  } else if (ev.step === 'error') {
+    $('#out').innerHTML = `<p class="err">Error: ${esc(ev.message)}</p>`;
+  }
+}
+$('#pick').onchange = loadCase; $('#go').onclick = run; loadCases();
+</script>
+</body>
+</html>

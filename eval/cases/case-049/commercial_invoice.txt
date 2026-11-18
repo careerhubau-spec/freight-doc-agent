@@ -1,0 +1,8 @@
+INVOICE PI-2026722 | 2026-08-27 | CIF | EUR
+From: Bremer Küchentechnik GmbH (Germany)  To: Southbank Home Goods Pty Ltd ABN 53884440741
+Route: Hamburg -> Brisbane | Made in Germany
+* Laptop power adapter 65W; HS 8504.40.90; 60 PCS x 6,92 = 415,20
+* Solid acacia dining table 180cm; HS 9403.60.00; 8 PCS x 154,03 = 1.232,24
+* Plastic storage container 12L; HS 3926.90.99; 60 PCS x 2,89 = 173,40
+Amount due: EUR 1.820,84
+Pkgs 22 / G.W. 421,92 kg

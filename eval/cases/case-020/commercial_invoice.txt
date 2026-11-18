@@ -1,0 +1,10 @@
+INVOICE CI-2026626 | 03.11.2026 | DAP | JPY
+From: Osaka Precision Tools K.K. (Japan)  To: Dandenong Trade Supplies Pty Ltd ABN 49115653562
+Route: Osaka -> Fremantle
+* Cordless drill driver 18V; HS 8467.21.00; 300 PCS x 6,122 = 1,836,600
+* Stainless steel cookware set, 5 pc; HS 7323.93.00; 48 SET x 3,605 = 173,040
+* Electric drip coffee maker 1.5L; HS 8516.71.00; 60 PCS x 2,046 = 122,760
+* Laptop power adapter 65W; HS 8504.40.90; 240 PCS x 1,130 = 271,200
+* Wooden toy train set; HS 9503.00.90; 200 SET x 842 = 168,400
+Amount due: JPY 2,572,000
+Pkgs 142 / G.W. 1,838.24 kg

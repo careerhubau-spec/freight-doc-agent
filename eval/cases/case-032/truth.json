@@ -1,0 +1,61 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026378",
+  "invoice_date": "2026-11-09",
+  "shipper": {
+   "name": "Saigon Timberline Furniture JSC",
+   "country": "VN"
+  },
+  "consignee": {
+   "name": "Harbourline Imports Pty Ltd",
+   "abn": "27589822895"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 8310.16,
+  "port_of_loading": "Ho Chi Minh City (Cat Lai)",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "VN",
+  "invoice_packages": 49,
+  "invoice_gross_weight_kg": 1146.66,
+  "packing": {
+   "packages": 49,
+   "package_type": "CTN",
+   "gross_weight_kg": 1146.66,
+   "net_weight_kg": 988.8,
+   "volume_cbm": 4.41
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 34.13,
+    "line_total": 6826,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 19.07,
+    "line_total": 915.36,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 2.37,
+    "line_total": 568.8,
+    "origin_country": "VN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_hs"
+ ]
+}

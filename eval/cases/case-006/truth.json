@@ -1,0 +1,50 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026192",
+  "invoice_date": "2026-08-09",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "95678098761"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 4461.2,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "TH",
+  "invoice_packages": 19,
+  "invoice_gross_weight_kg": 646.88,
+  "packing": {
+   "packages": 19,
+   "package_type": "PLT",
+   "gross_weight_kg": 646.88,
+   "net_weight_kg": 564,
+   "volume_cbm": 0.76
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 120,
+    "unit": "SET",
+    "unit_price": 36.41,
+    "line_total": 4369.2,
+    "origin_country": "TH"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 0.92,
+    "line_total": 92,
+    "origin_country": "TH"
+   }
+  ]
+ },
+ "expected_flags": []
+}

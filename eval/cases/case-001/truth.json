@@ -1,0 +1,43 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026454",
+  "invoice_date": "2026-08-20",
+  "shipper": {
+   "name": "Shenzhen Brightpath Electronics Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Harbourline Imports Pty Ltd",
+   "abn": "69261420949"
+  },
+  "incoterm": "DAP",
+  "currency": "USD",
+  "total_invoice_value": 275.04,
+  "port_of_loading": "Shenzhen (Yantian)",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": null,
+  "invoice_packages": 5,
+  "invoice_gross_weight_kg": 22.82,
+  "packing": {
+   "packages": 5,
+   "package_type": "CTN",
+   "gross_weight_kg": 22.82,
+   "net_weight_kg": 16.8,
+   "volume_cbm": 0.2
+  },
+  "lines": [
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 5.73,
+    "line_total": 275.04,
+    "origin_country": null
+   }
+  ]
+ },
+ "expected_flags": [
+  "missing_origin"
+ ]
+}

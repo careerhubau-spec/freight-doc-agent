@@ -1,0 +1,7 @@
+INVOICE CI-2026401 | 2026-06-14 | FOB | EUR
+From: Bremer Küchentechnik GmbH (Germany)  To: Coastline Retail Group Pty Ltd ABN 96 888 428 474
+Route: Hamburg -> Fremantle | Made in Germany
+* Plastic storage container 12L; HS 3926.90.99; 500 PCS x 1,40 = 700,00
+* Laptop power adapter 65W; HS 8504.40; 48 PCS x 6,10 = 292,80
+Amount due: EUR 992,80
+Pkgs 29 / G.W. 377,22 kg

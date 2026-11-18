@@ -1,0 +1,10 @@
+INVOICE INV-2026622 | 26/09/2026 | FOB | USD
+From: Ningbo Everbright Housewares Co., Ltd (China)  To: Southbank Home Goods Pty Ltd ABN 93 351 094 424
+Route: Ningbo -> Brisbane | Made in China
+* Electric drip coffee maker 1.5L; HS 8516.71.00; 60 PCS x 26.24 = 1,574.40
+* Polyester travel backpack 30L; HS 4202.92.00; 240 PCS x 7.58 = 1,819.20
+* Solid acacia dining table 180cm; HS 9403.60.00; 24 PCS x 136.32 = 3,271.68
+* Cordless drill driver 18V; HS 8467.21.00; 200 PCS x 32.49 = 6,498.00
+* Stainless steel cookware set, 5 pc; HS 7323.93.00; 50 SET x 43.13 = 2,156.50
+Amount due: USD 15,569.78
+Pkgs 96 / G.W. 2,119.68 kg

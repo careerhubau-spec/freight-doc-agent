@@ -1,0 +1,79 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026622",
+  "invoice_date": "2026-09-26",
+  "shipper": {
+   "name": "Ningbo Everbright Housewares Co., Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "93351094424"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 15569.78,
+  "port_of_loading": "Ningbo",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "CN",
+  "invoice_packages": 96,
+  "invoice_gross_weight_kg": 2119.68,
+  "packing": {
+   "packages": 96,
+   "package_type": "CTN",
+   "gross_weight_kg": 2119.68,
+   "net_weight_kg": 1824,
+   "volume_cbm": 3.84
+  },
+  "lines": [
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 26.24,
+    "line_total": 1574.4,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 7.58,
+    "line_total": 1819.2,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 136.32,
+    "line_total": 3271.68,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Cordless drill driver 18V",
+    "hs_code": "8467.21.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 32.49,
+    "line_total": 6498,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 50,
+    "unit": "SET",
+    "unit_price": 43.13,
+    "line_total": 2156.5,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "total_mismatch"
+ ]
+}

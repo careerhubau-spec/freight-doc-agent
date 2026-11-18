@@ -1,0 +1,867 @@
+{
+ "run_at": "2026-11-18T10:37:41.330Z",
+ "engine": "claude-cli",
+ "reread": false,
+ "cases": 50,
+ "errors": 20,
+ "field_accuracy": 0.9663,
+ "perfect_entries": 21,
+ "flag_precision": 1,
+ "flag_recall": 1,
+ "clean_pass_rate": 1,
+ "misreads_fixed_by_reread": 0,
+ "avg_seconds_per_shipment": 26.5,
+ "avg_calls_per_shipment": 4,
+ "wall_clock_minutes": 1.5,
+ "results": [
+  {
+   "id": "case-001",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 31196,
+    "output_tokens": 360,
+    "ms": 6235
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-002",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 125268,
+    "output_tokens": 2010,
+    "ms": 27748
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-003",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 93940,
+    "output_tokens": 1321,
+    "ms": 19782
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-004",
+   "right": 26,
+   "total": 28,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 2,
+    "input_tokens": 62587,
+    "output_tokens": 781,
+    "ms": 12586
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-005",
+   "right": 38,
+   "total": 43,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"VN\"",
+    "lines[1].origin_country: got null, printed \"VN\"",
+    "lines[2].origin_country: got null, printed \"VN\"",
+    "lines[3].origin_country: got null, printed \"VN\"",
+    "lines[4].origin_country: got null, printed \"VN\""
+   ],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 125642,
+    "output_tokens": 2307,
+    "ms": 28133
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "gross_lt_net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-006",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 154667,
+    "output_tokens": 3049,
+    "ms": 35950
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-007",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 154644,
+    "output_tokens": 3166,
+    "ms": 36197
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-008",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 2,
+    "input_tokens": 60651,
+    "output_tokens": 1159,
+    "ms": 12743
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-009",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"JP\"",
+    "lines[1].origin_country: got null, printed \"JP\"",
+    "lines[2].origin_country: got null, printed \"JP\"",
+    "lines[3].origin_country: got null, printed \"JP\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 123211,
+    "output_tokens": 2371,
+    "ms": 27799
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-010",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\"",
+    "lines[2].origin_country: got null, printed \"IN\"",
+    "lines[3].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 185749,
+    "output_tokens": 3150,
+    "ms": 39168
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-011",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 91754,
+    "output_tokens": 1558,
+    "ms": 19204
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-012",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 91617,
+    "output_tokens": 1254,
+    "ms": 17369
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-013",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 120822,
+    "output_tokens": 2102,
+    "ms": 25647
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-014",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 184137,
+    "output_tokens": 3689,
+    "ms": 43434
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "line_math",
+      "gross_lt_net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-015",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\"",
+    "lines[2].origin_country: got null, printed \"IN\"",
+    "lines[3].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 92154,
+    "output_tokens": 1975,
+    "ms": 21638
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-016",
+   "right": 38,
+   "total": 43,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"CN\"",
+    "lines[1].origin_country: got null, printed \"CN\"",
+    "lines[2].origin_country: got null, printed \"CN\"",
+    "lines[3].origin_country: got null, printed \"CN\"",
+    "lines[4].origin_country: got null, printed \"CN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 92262,
+    "output_tokens": 2050,
+    "ms": 22735
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-017",
+   "right": 30,
+   "total": 33,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"DE\"",
+    "lines[1].origin_country: got null, printed \"DE\"",
+    "lines[2].origin_country: got null, printed \"DE\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 121449,
+    "output_tokens": 2427,
+    "ms": 29451
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-018",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 121504,
+    "output_tokens": 2503,
+    "ms": 29037
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-019",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 119143,
+    "output_tokens": 2678,
+    "ms": 29702
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch",
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-020",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 121360,
+    "output_tokens": 2860,
+    "ms": 29498
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch",
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-021",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 121264,
+    "output_tokens": 2872,
+    "ms": 30441
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-022",
+   "right": 30,
+   "total": 33,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\"",
+    "lines[2].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 118971,
+    "output_tokens": 2733,
+    "ms": 30648
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_hs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-023",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 152434,
+    "output_tokens": 3049,
+    "ms": 36629
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-024",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 89599,
+    "output_tokens": 1456,
+    "ms": 20135
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-025",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 120946,
+    "output_tokens": 2081,
+    "ms": 27508
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-026",
+   "right": 38,
+   "total": 38,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 120838,
+    "output_tokens": 2144,
+    "ms": 26648
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-027",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"TH\"",
+    "lines[1].origin_country: got null, printed \"TH\"",
+    "lines[2].origin_country: got null, printed \"TH\"",
+    "lines[3].origin_country: got null, printed \"TH\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 118857,
+    "output_tokens": 2279,
+    "ms": 26549
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-028",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 118844,
+    "output_tokens": 2195,
+    "ms": 25630
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-029",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 147424,
+    "output_tokens": 3004,
+    "ms": 35301
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch",
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-030",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 86768,
+    "output_tokens": 1555,
+    "ms": 20502
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-031",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9e08a553-6c83-415d-b8d0-55ec521c1ac3\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-032",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"cb9daefd-ddeb-48d3-ab00-acfc3e1650d6\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-033",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"531a082b-fafd-451b-9f88-dd0efb7014c1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-034",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"22d2dccb-d65f-400d-b1f7-4564947f4649\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-035",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"30e710d6-02ab-4e2c-921b-cce406d9986b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-036",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"603d2aec-e03b-4e1c-9481-cc82c45ca04c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-037",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f61f92a5-3705-4d7d-bb43-72292651f504\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-038",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"aa8106ad-4959-4010-863b-371737adfdce\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-039",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e3183f11-03d0-4993-ba36-d32dac0e13de\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-040",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e6e3747c-cafe-4cf7-8702-54849244525c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-041",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3fd10568-d871-49f4-b731-d755a1f79852\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-042",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"767d2876-0f6c-429d-9ebf-4a73a63e736b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-043",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d9f836e8-4b50-439c-85d9-e4a3001c645e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-044",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"58a9a65e-a1c6-4d04-9ddb-87455a272c5a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-045",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"14ef8b19-1c38-40a1-b08b-3be4b676970a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-046",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"38662a92-3d0e-44ed-b2fa-e7d81423be32\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-047",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"36343ea2-89e2-4362-b836-a104ba9f32f5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-048",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ca027920-5801-43d5-96bd-2f1c0d68b9ee\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-049",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b6b8dedd-8dfe-4524-9139-583cc6ce7a4f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  },
+  {
+   "id": "case-050",
+   "error": "claude -p exit 1: {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8e92ba7f-1f0a-43c2-85ea-899253b766ca\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_sear"
+  }
+ ]
+}

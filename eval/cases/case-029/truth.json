@@ -1,0 +1,80 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026048",
+  "invoice_date": "2026-10-12",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Harbourline Imports Pty Ltd",
+   "abn": "31807868520"
+  },
+  "incoterm": "FCA",
+  "currency": "JPY",
+  "total_invoice_value": 556444,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Fremantle",
+  "origin_country": null,
+  "invoice_packages": 19,
+  "invoice_gross_weight_kg": 323.52,
+  "packing": {
+   "packages": 18,
+   "package_type": "CRATE",
+   "gross_weight_kg": 323.52,
+   "net_weight_kg": 276,
+   "volume_cbm": 0.72
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 2523,
+    "line_total": 126150,
+    "origin_country": null
+   },
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 450,
+    "line_total": 21600,
+    "origin_country": null
+   },
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 50,
+    "unit": "PRS",
+    "unit_price": 6527,
+    "line_total": 326350,
+    "origin_country": null
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 258,
+    "line_total": 6192,
+    "origin_country": null
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 19038,
+    "line_total": 76152,
+    "origin_country": null
+   }
+  ]
+ },
+ "expected_flags": [
+  "missing_origin",
+  "package_mismatch"
+ ]
+}

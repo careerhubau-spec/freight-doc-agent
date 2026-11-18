@@ -1,0 +1,24 @@
+TIRUPUR ORGANIC KNITS PVT LTD
+EXPORT INVOICE
+
+Invoice number ........ EXP-2026457
+Invoice date .......... 2026-06-08
+Consignee ............. Dandenong Trade Supplies Pty Ltd
+                        ABN: 66359354979
+Incoterm .............. FCA
+Currency .............. USD
+Loading port .......... Chennai
+Destination port ...... Brisbane
+Origin of goods ....... India
+
+Item 1: Laptop power adapter 65W
+   Tariff 8504.40.90 | 24 PCS @ 4.10 = 98.40
+Item 2: Plastic storage container 12L
+   Tariff 3926.90.99 | 120 PCS @ 1.36 = 163.20
+Item 3: Wooden toy train set
+   Tariff 9503.00.90 | 100 SET @ 5.79 = 579.00
+Item 4: Electric drip coffee maker 1.5L
+   Tariff 8516.71.00 | 24 PCS @ 27.87 = 668.88
+
+Invoice total (USD): 1,509.48
+Shipment: 27 packages, gross 313.70 KGS

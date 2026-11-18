@@ -1,0 +1,50 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026041",
+  "invoice_date": "2026-10-21",
+  "shipper": {
+   "name": "Ningbo Everbright Housewares Co., Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Harbourline Imports Pty Ltd",
+   "abn": "58864249355"
+  },
+  "incoterm": "CIF",
+  "currency": "USD",
+  "total_invoice_value": 1862.24,
+  "port_of_loading": "Ningbo",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": "CN",
+  "invoice_packages": 9,
+  "invoice_gross_weight_kg": 140.26,
+  "packing": {
+   "packages": 9,
+   "package_type": "CTN",
+   "gross_weight_kg": 140.26,
+   "net_weight_kg": 118.8,
+   "volume_cbm": 0.81
+  },
+  "lines": [
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 2.63,
+    "line_total": 126.24,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Cordless drill driver 18V",
+    "hs_code": "8467.21.00",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 34.72,
+    "line_total": 1736,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

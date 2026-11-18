@@ -1,0 +1,77 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026430",
+  "invoice_date": "2026-08-03",
+  "shipper": {
+   "name": "Saigon Timberline Furniture JSC",
+   "country": "VN"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "72725790211"
+  },
+  "incoterm": "EXW",
+  "currency": "USD",
+  "total_invoice_value": 4934.56,
+  "port_of_loading": "Ho Chi Minh City (Cat Lai)",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "VN",
+  "invoice_packages": 34,
+  "invoice_gross_weight_kg": 715.78,
+  "packing": {
+   "packages": 34,
+   "package_type": "CTN",
+   "gross_weight_kg": 715.78,
+   "net_weight_kg": 614.8,
+   "volume_cbm": 3.06
+  },
+  "lines": [
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 5.12,
+    "line_total": 1228.8,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 6.89,
+    "line_total": 413.4,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 26.17,
+    "line_total": 1256.16,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 50,
+    "unit": "SET",
+    "unit_price": 10.79,
+    "line_total": 539.5,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 10,
+    "unit": "PCS",
+    "unit_price": 149.67,
+    "line_total": 1496.7,
+    "origin_country": "VN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

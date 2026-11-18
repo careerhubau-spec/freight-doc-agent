@@ -1,0 +1,70 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026837",
+  "invoice_date": "2026-06-06",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "77037481760"
+  },
+  "incoterm": "CFR",
+  "currency": "USD",
+  "total_invoice_value": 7187.72,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "IN",
+  "invoice_packages": 14,
+  "invoice_gross_weight_kg": 1276.58,
+  "packing": {
+   "packages": 14,
+   "package_type": "CTN",
+   "gross_weight_kg": 1276.58,
+   "net_weight_kg": 1129.8,
+   "volume_cbm": 0.56
+  },
+  "lines": [
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 48,
+    "unit": "PRS",
+    "unit_price": 34.04,
+    "line_total": 1633.92,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 185.95,
+    "line_total": 4462.8,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 6.66,
+    "line_total": 666,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 100,
+    "unit": "SET",
+    "unit_price": 4.25,
+    "line_total": 425,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_abn"
+ ]
+}

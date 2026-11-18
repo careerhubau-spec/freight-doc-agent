@@ -1,0 +1,68 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026195",
+  "invoice_date": "2026-06-16",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "98344229491"
+  },
+  "incoterm": "EXW",
+  "currency": "USD",
+  "total_invoice_value": 8621.28,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": "IN",
+  "invoice_packages": 95,
+  "invoice_gross_weight_kg": 1178.98,
+  "packing": {
+   "packages": 95,
+   "package_type": "CTN",
+   "gross_weight_kg": 1178.98,
+   "net_weight_kg": 984.8,
+   "volume_cbm": 8.55
+  },
+  "lines": [
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 21.96,
+    "line_total": 1054.08,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 8.59,
+    "line_total": 1718,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 2.72,
+    "line_total": 544,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 120,
+    "unit": "SET",
+    "unit_price": 44.21,
+    "line_total": 5305.2,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

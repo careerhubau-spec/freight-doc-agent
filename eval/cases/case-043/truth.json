@@ -1,0 +1,52 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026126",
+  "invoice_date": "2026-08-15",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Ironbark Outdoor Pty Ltd",
+   "abn": "76415986952"
+  },
+  "incoterm": "FCA",
+  "currency": "USD",
+  "total_invoice_value": 591.36,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "TH",
+  "invoice_packages": 21,
+  "invoice_gross_weight_kg": 108.19,
+  "packing": {
+   "packages": 21,
+   "package_type": "PLT",
+   "gross_weight_kg": 108.19,
+   "net_weight_kg": 166.19,
+   "volume_cbm": 0.84
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 14.89,
+    "line_total": 357.36,
+    "origin_country": "TH"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 2.34,
+    "line_total": 234,
+    "origin_country": "TH"
+   }
+  ]
+ },
+ "expected_flags": [
+  "gross_lt_net"
+ ]
+}

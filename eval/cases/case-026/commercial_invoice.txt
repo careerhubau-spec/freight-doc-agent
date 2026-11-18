@@ -1,0 +1,9 @@
+INVOICE PI-2026837 | 06/06/2026 | CFR | USD
+From: Tirupur Organic Knits Pvt Ltd (India)  To: Coastline Retail Group Pty Ltd ABN 77037481760
+Route: Chennai -> Melbourne | Made in India
+* Men's leather derby shoe; HS 6403.99.00; 48 PRS x 34.04 = 1,633.92
+* Solid acacia dining table 180cm; HS 9403.60.00; 24 PCS x 185.95 = 4,462.80
+* Laptop power adapter 65W; HS 8504.40.90; 100 PCS x 6.66 = 666.00
+* Wooden toy train set; HS 9503.00.90; 100 SET x 4.25 = 425.00
+Amount due: USD 7,187.72
+Pkgs 14 / G.W. 1,276.58 kg

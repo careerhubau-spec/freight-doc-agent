@@ -1,0 +1,61 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026722",
+  "invoice_date": "2026-08-27",
+  "shipper": {
+   "name": "Bremer Küchentechnik GmbH",
+   "country": "DE"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "53884440741"
+  },
+  "incoterm": "CIF",
+  "currency": "EUR",
+  "total_invoice_value": 1820.84,
+  "port_of_loading": "Hamburg",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "DE",
+  "invoice_packages": 22,
+  "invoice_gross_weight_kg": 421.92,
+  "packing": {
+   "packages": 22,
+   "package_type": "PLT",
+   "gross_weight_kg": 421.92,
+   "net_weight_kg": 361,
+   "volume_cbm": 6.6
+  },
+  "lines": [
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 6.92,
+    "line_total": 415.2,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 8,
+    "unit": "PCS",
+    "unit_price": 154.03,
+    "line_total": 1232.24,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 2.89,
+    "line_total": 173.4,
+    "origin_country": "DE"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_abn"
+ ]
+}

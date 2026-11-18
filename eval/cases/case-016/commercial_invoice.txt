@@ -1,0 +1,26 @@
+NINGBO EVERBRIGHT HOUSEWARES CO., LTD
+EXPORT INVOICE
+
+Invoice number ........ PI-2026503
+Invoice date .......... 23 Nov 2026
+Consignee ............. Coastline Retail Group Pty Ltd
+                        ABN: 74 554 479 285
+Incoterm .............. FOB
+Currency .............. USD
+Loading port .......... Ningbo
+Destination port ...... Melbourne
+Origin of goods ....... China
+
+Item 1: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 120 SET @ 22.63 = 2,715.60
+Item 2: Electric drip coffee maker 1.5L
+   Tariff 8516.71.00 | 24 PCS @ 28.59 = 686.16
+Item 3: Cotton crew-neck T-shirt
+   Tariff 6109.10.00 | 240 PCS @ 3.03 = 727.20
+Item 4: Laptop power adapter 65W
+   Tariff 8504.40.90 | 500 PCS @ 6.58 = 3,290.00
+Item 5: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 200 PCS @ 10.16 = 2,032.00
+
+Invoice total (USD): 9,450.96
+Shipment: 109 packages, gross 1,159.49 KGS

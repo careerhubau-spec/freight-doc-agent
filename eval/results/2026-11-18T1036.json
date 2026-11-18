@@ -1,0 +1,1568 @@
+{
+ "run_at": "2026-11-18T10:36:10.672Z",
+ "engine": "claude-cli",
+ "reread": true,
+ "cases": 50,
+ "errors": 0,
+ "field_accuracy": 0.9758,
+ "perfect_entries": 39,
+ "flag_precision": 1,
+ "flag_recall": 1,
+ "clean_pass_rate": 1,
+ "misreads_fixed_by_reread": 0,
+ "avg_seconds_per_shipment": 38.8,
+ "avg_calls_per_shipment": 5.84,
+ "wall_clock_minutes": 2.1,
+ "results": [
+  {
+   "id": "case-001",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 85778,
+    "output_tokens": 1288,
+    "ms": 20532
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-002",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 7,
+    "input_tokens": 145348,
+    "output_tokens": 1731,
+    "ms": 33743
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_packages",
+      "packing.packages"
+     ],
+     "corrected": [],
+     "issues": [
+      "package_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-003",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 9,
+    "input_tokens": 236514,
+    "output_tokens": 2925,
+    "ms": 52954
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_gross_weight_kg",
+      "packing.gross_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "weight_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-004",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 2,
+    "input_tokens": 56819,
+    "output_tokens": 928,
+    "ms": 12780
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-005",
+   "right": 38,
+   "total": 43,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"VN\"",
+    "lines[1].origin_country: got null, printed \"VN\"",
+    "lines[2].origin_country: got null, printed \"VN\"",
+    "lines[3].origin_country: got null, printed \"VN\"",
+    "lines[4].origin_country: got null, printed \"VN\""
+   ],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 237437,
+    "output_tokens": 2602,
+    "ms": 51592
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "gross_lt_net"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "packing.gross_weight_kg",
+      "packing.net_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "gross_lt_net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-006",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 122463,
+    "output_tokens": 1534,
+    "ms": 26354
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-007",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 235591,
+    "output_tokens": 3416,
+    "ms": 53884
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "consignee.abn"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-008",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 144318,
+    "output_tokens": 2227,
+    "ms": 34860
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-009",
+   "right": 38,
+   "total": 38,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 86970,
+    "output_tokens": 1380,
+    "ms": 19395
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-010",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\"",
+    "lines[2].origin_country: got null, printed \"IN\"",
+    "lines[3].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 115913,
+    "output_tokens": 2182,
+    "ms": 31816
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-011",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 115638,
+    "output_tokens": 1757,
+    "ms": 29404
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-012",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 174214,
+    "output_tokens": 2123,
+    "ms": 39178
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_gross_weight_kg",
+      "packing.gross_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "weight_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-013",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 238868,
+    "output_tokens": 3187,
+    "ms": 55101
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_packages",
+      "packing.packages"
+     ],
+     "corrected": [],
+     "issues": [
+      "package_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-014",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 240470,
+    "output_tokens": 2879,
+    "ms": 52067
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "line_math",
+      "gross_lt_net"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[0].quantity",
+      "lines[0].unit_price",
+      "lines[0].line_total",
+      "packing.gross_weight_kg",
+      "packing.net_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "line_math",
+      "gross_lt_net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-015",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\"",
+    "lines[2].origin_country: got null, printed \"IN\"",
+    "lines[3].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 119129,
+    "output_tokens": 1686,
+    "ms": 27302
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-016",
+   "right": 38,
+   "total": 43,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"CN\"",
+    "lines[1].origin_country: got null, printed \"CN\"",
+    "lines[2].origin_country: got null, printed \"CN\"",
+    "lines[3].origin_country: got null, printed \"CN\"",
+    "lines[4].origin_country: got null, printed \"CN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 153204,
+    "output_tokens": 2264,
+    "ms": 35884
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-017",
+   "right": 30,
+   "total": 33,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"DE\"",
+    "lines[1].origin_country: got null, printed \"DE\"",
+    "lines[2].origin_country: got null, printed \"DE\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 153126,
+    "output_tokens": 2178,
+    "ms": 35817
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-018",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 123103,
+    "output_tokens": 2530,
+    "ms": 31564
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-019",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 7,
+    "input_tokens": 214938,
+    "output_tokens": 4438,
+    "ms": 54587
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch",
+      "missing_origin"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_packages",
+      "packing.packages"
+     ],
+     "corrected": [],
+     "issues": [
+      "package_mismatch",
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-020",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 247822,
+    "output_tokens": 4398,
+    "ms": 58925
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch",
+      "missing_origin"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_gross_weight_kg",
+      "packing.gross_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "weight_mismatch",
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-021",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 123471,
+    "output_tokens": 3013,
+    "ms": 33073
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-022",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 9,
+    "input_tokens": 273878,
+    "output_tokens": 3997,
+    "ms": 58803
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_hs"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[2].hs_code"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_hs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-023",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 122123,
+    "output_tokens": 1397,
+    "ms": 23818
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-024",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 120437,
+    "output_tokens": 1754,
+    "ms": 24889
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-025",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 240605,
+    "output_tokens": 3537,
+    "ms": 49862
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "consignee.abn"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-026",
+   "right": 38,
+   "total": 38,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 242089,
+    "output_tokens": 3161,
+    "ms": 48960
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "consignee.abn"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-027",
+   "right": 34,
+   "total": 38,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"TH\"",
+    "lines[1].origin_country: got null, printed \"TH\"",
+    "lines[2].origin_country: got null, printed \"TH\"",
+    "lines[3].origin_country: got null, printed \"TH\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 3,
+    "input_tokens": 91321,
+    "output_tokens": 1076,
+    "ms": 17816
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-028",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 121075,
+    "output_tokens": 2390,
+    "ms": 27537
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-029",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 9,
+    "input_tokens": 271790,
+    "output_tokens": 3790,
+    "ms": 58278
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch",
+      "missing_origin"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_packages",
+      "packing.packages"
+     ],
+     "corrected": [],
+     "issues": [
+      "package_mismatch",
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-030",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 123973,
+    "output_tokens": 1440,
+    "ms": 24777
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-031",
+   "right": 23,
+   "total": 23,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 7,
+    "input_tokens": 211232,
+    "output_tokens": 2381,
+    "ms": 43033
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_gross_weight_kg",
+      "packing.gross_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "weight_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-032",
+   "right": 30,
+   "total": 33,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"VN\"",
+    "lines[1].origin_country: got null, printed \"VN\"",
+    "lines[2].origin_country: got null, printed \"VN\""
+   ],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 240319,
+    "output_tokens": 2745,
+    "ms": 49118
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_hs"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[2].hs_code"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_hs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-033",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 7,
+    "input_tokens": 205895,
+    "output_tokens": 1795,
+    "ms": 39781
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_hs",
+      "package_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[1].hs_code",
+      "invoice_packages",
+      "packing.packages"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_hs",
+      "package_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-034",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 147833,
+    "output_tokens": 1503,
+    "ms": 28517
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-035",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 148749,
+    "output_tokens": 2044,
+    "ms": 30284
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-036",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 239643,
+    "output_tokens": 4147,
+    "ms": 53764
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "consignee.abn"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-037",
+   "right": 38,
+   "total": 43,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"JP\"",
+    "lines[1].origin_country: got null, printed \"JP\"",
+    "lines[2].origin_country: got null, printed \"JP\"",
+    "lines[3].origin_country: got null, printed \"JP\"",
+    "lines[4].origin_country: got null, printed \"JP\""
+   ],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 242158,
+    "output_tokens": 3981,
+    "ms": 53508
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_hs"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[2].hs_code"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_hs"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-038",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 243775,
+    "output_tokens": 3856,
+    "ms": 52929
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "total_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "total_invoice_value",
+      "lines[0].line_total",
+      "lines[1].line_total",
+      "lines[2].line_total",
+      "lines[3].line_total",
+      "lines[4].line_total"
+     ],
+     "corrected": [],
+     "issues": [
+      "total_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-039",
+   "right": 30,
+   "total": 33,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"VN\"",
+    "lines[1].origin_country: got null, printed \"VN\"",
+    "lines[2].origin_country: got null, printed \"VN\""
+   ],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 2,
+    "input_tokens": 60639,
+    "output_tokens": 1175,
+    "ms": 14320
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-040",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 9,
+    "input_tokens": 270044,
+    "output_tokens": 3913,
+    "ms": 58794
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "package_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_packages",
+      "packing.packages"
+     ],
+     "corrected": [],
+     "issues": [
+      "package_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-041",
+   "right": 30,
+   "total": 33,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"IN\"",
+    "lines[1].origin_country: got null, printed \"IN\"",
+    "lines[2].origin_country: got null, printed \"IN\""
+   ],
+   "tp": 2,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 8,
+    "input_tokens": 242126,
+    "output_tokens": 3368,
+    "ms": 51826
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "line_math",
+      "bad_abn"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[0].quantity",
+      "lines[0].unit_price",
+      "lines[0].line_total",
+      "consignee.abn"
+     ],
+     "corrected": [],
+     "issues": [
+      "line_math",
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-042",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 180435,
+    "output_tokens": 3126,
+    "ms": 41448
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-043",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 7,
+    "input_tokens": 211121,
+    "output_tokens": 2842,
+    "ms": 44937
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "gross_lt_net"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "packing.gross_weight_kg",
+      "packing.net_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "gross_lt_net"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-044",
+   "right": 43,
+   "total": 43,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 9,
+    "input_tokens": 278585,
+    "output_tokens": 4364,
+    "ms": 60558
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "line_math"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "lines[2].quantity",
+      "lines[2].unit_price",
+      "lines[2].line_total"
+     ],
+     "corrected": [],
+     "issues": [
+      "line_math"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-045",
+   "right": 38,
+   "total": 38,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 122201,
+    "output_tokens": 1698,
+    "ms": 25604
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-046",
+   "right": 38,
+   "total": 38,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 2,
+    "input_tokens": 62108,
+    "output_tokens": 690,
+    "ms": 11458
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-047",
+   "right": 26,
+   "total": 28,
+   "misses": [
+    "lines[0].origin_country: got null, printed \"CN\"",
+    "lines[1].origin_country: got null, printed \"CN\""
+   ],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 6,
+    "input_tokens": 214293,
+    "output_tokens": 3495,
+    "ms": 47144
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "weight_mismatch"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "invoice_gross_weight_kg",
+      "packing.gross_weight_kg"
+     ],
+     "corrected": [],
+     "issues": [
+      "weight_mismatch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-048",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 0,
+   "fp": [],
+   "fn": [],
+   "clean": true,
+   "cleanPass": true,
+   "usage": {
+    "calls": 4,
+    "input_tokens": 123537,
+    "output_tokens": 2616,
+    "ms": 29917
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": []
+    }
+   ]
+  },
+  {
+   "id": "case-049",
+   "right": 33,
+   "total": 33,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 5,
+    "input_tokens": 243005,
+    "output_tokens": 3328,
+    "ms": 51430
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "bad_abn"
+     ]
+    },
+    {
+     "step": "reread",
+     "fields": [
+      "consignee.abn"
+     ],
+     "corrected": [],
+     "issues": [
+      "bad_abn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-050",
+   "right": 28,
+   "total": 28,
+   "misses": [],
+   "tp": 1,
+   "fp": [],
+   "fn": [],
+   "clean": false,
+   "cleanPass": false,
+   "usage": {
+    "calls": 2,
+    "input_tokens": 119689,
+    "output_tokens": 1454,
+    "ms": 25552
+   },
+   "trace": [
+    {
+     "step": "extract",
+     "issues": [
+      "missing_origin"
+     ]
+    }
+   ]
+  }
+ ]
+}

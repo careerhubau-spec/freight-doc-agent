@@ -1,0 +1,41 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026731",
+  "invoice_date": "2026-06-03",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Dandenong Trade Supplies Pty Ltd",
+   "abn": "37346005358"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 516.6,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "TH",
+  "invoice_packages": 3,
+  "invoice_gross_weight_kg": 89.76,
+  "packing": {
+   "packages": 3,
+   "package_type": "CTN",
+   "gross_weight_kg": 89.76,
+   "net_weight_kg": 78,
+   "volume_cbm": 0.27
+  },
+  "lines": [
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 60,
+    "unit": "SET",
+    "unit_price": 8.61,
+    "line_total": 516.6,
+    "origin_country": "TH"
+   }
+  ]
+ },
+ "expected_flags": []
+}

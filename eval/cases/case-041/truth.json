@@ -1,0 +1,62 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026004",
+  "invoice_date": "2026-11-11",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "37452288796"
+  },
+  "incoterm": "EXW",
+  "currency": "USD",
+  "total_invoice_value": 4269.3,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "IN",
+  "invoice_packages": 8,
+  "invoice_gross_weight_kg": 1004.1,
+  "packing": {
+   "packages": 8,
+   "package_type": "PLT",
+   "gross_weight_kg": 1004.1,
+   "net_weight_kg": 890.8,
+   "volume_cbm": 0.72
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 24,
+    "unit": "SET",
+    "unit_price": 26.7,
+    "line_total": 740.8,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 2.79,
+    "line_total": 139.5,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 20,
+    "unit": "PCS",
+    "unit_price": 169.45,
+    "line_total": 3389,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_abn",
+  "line_math"
+ ]
+}

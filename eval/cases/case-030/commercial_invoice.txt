@@ -1,0 +1,17 @@
+SIAM COASTAL TEXTILES CO., LTD
+EXPORT INVOICE
+
+Invoice number ........ CI-2026868
+Invoice date .......... 10/06/2026
+Consignee ............. Westgate Kitchen Co Pty Ltd
+                        ABN: 80907847736
+Incoterm .............. FOB
+Currency .............. USD
+Loading port .......... Laem Chabang
+Destination port ...... Sydney (Port Botany)
+
+Item 1: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 200 PCS @ 10.07 = 2,014.00
+
+Invoice total (USD): 2,014.00
+Shipment: 34 packages, gross 228.80 KGS

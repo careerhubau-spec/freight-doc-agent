@@ -1,0 +1,17 @@
+COMMERCIAL INVOICE
+Seller / Exporter: Ningbo Everbright Housewares Co., Ltd, China
+Buyer / Importer: Westgate Kitchen Co Pty Ltd, Victoria, Australia   ABN 90 527 229 477
+Invoice No: EXP-2026701      Date: 2026-10-10
+Terms of Delivery: FOB Ningbo      Currency: USD
+Port of Loading: Ningbo      Port of Discharge: Fremantle, Australia
+Country of Origin: China
+
+Description                         HS Code         Qty Unit   Unit Price        Amount
+--------------------------------------------------------------------------------------
+Laptop power adapter 65W            8504.40.90       48 PCS          7.87        377.76
+Electric drip coffee maker 1.5L     8516.71.00       60 PCS         27.17      1,630.20
+--------------------------------------------------------------------------------------
+                                                           TOTAL FOB USD      2,007.96
+
+Total packages: 9     Total gross weight: 208.93 kg
+We certify this invoice is true and correct.

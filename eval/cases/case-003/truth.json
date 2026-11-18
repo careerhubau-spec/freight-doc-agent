@@ -1,0 +1,43 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026990",
+  "invoice_date": "2026-08-27",
+  "shipper": {
+   "name": "Calzaturificio Monteverde S.r.l.",
+   "country": "IT"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "85569149493"
+  },
+  "incoterm": "DAP",
+  "currency": "EUR",
+  "total_invoice_value": 613.8,
+  "port_of_loading": "La Spezia",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "IT",
+  "invoice_packages": 6,
+  "invoice_gross_weight_kg": 91.39,
+  "packing": {
+   "packages": 6,
+   "package_type": "PLT",
+   "gross_weight_kg": 65.28,
+   "net_weight_kg": 54,
+   "volume_cbm": 0.36
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 10.23,
+    "line_total": 613.8,
+    "origin_country": "IT"
+   }
+  ]
+ },
+ "expected_flags": [
+  "weight_mismatch"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026843",
+  "invoice_date": "2026-06-08",
+  "shipper": {
+   "name": "Calzaturificio Monteverde S.r.l.",
+   "country": "IT"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "79180288278"
+  },
+  "incoterm": "FOB",
+  "currency": "EUR",
+  "total_invoice_value": 1391.18,
+  "port_of_loading": "La Spezia",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": "IT",
+  "invoice_packages": 16,
+  "invoice_gross_weight_kg": 493.28,
+  "packing": {
+   "packages": 16,
+   "package_type": "CTN",
+   "gross_weight_kg": 493.28,
+   "net_weight_kg": 429,
+   "volume_cbm": 1.44
+  },
+  "lines": [
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 50,
+    "unit": "SET",
+    "unit_price": 8.77,
+    "line_total": 438.5,
+    "origin_country": "IT"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 8,
+    "unit": "PCS",
+    "unit_price": 93.21,
+    "line_total": 745.68,
+    "origin_country": "IT"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 2.07,
+    "line_total": 207,
+    "origin_country": "IT"
+   }
+  ]
+ },
+ "expected_flags": []
+}

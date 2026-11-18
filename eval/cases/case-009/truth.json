@@ -1,0 +1,68 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026096",
+  "invoice_date": "2026-11-08",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "68302115944"
+  },
+  "incoterm": "EXW",
+  "currency": "JPY",
+  "total_invoice_value": 783930,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "JP",
+  "invoice_packages": 19,
+  "invoice_gross_weight_kg": 342.24,
+  "packing": {
+   "packages": 19,
+   "package_type": "CTN",
+   "gross_weight_kg": 342.24,
+   "net_weight_kg": 292,
+   "volume_cbm": 5.7
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 2532,
+    "line_total": 506400,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 363,
+    "line_total": 18150,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 60,
+    "unit": "PRS",
+    "unit_price": 4068,
+    "line_total": 244080,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 255,
+    "line_total": 15300,
+    "origin_country": "JP"
+   }
+  ]
+ },
+ "expected_flags": []
+}

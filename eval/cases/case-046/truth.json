@@ -1,0 +1,68 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026379",
+  "invoice_date": "2026-09-28",
+  "shipper": {
+   "name": "Shenzhen Brightpath Electronics Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "48888440922"
+  },
+  "incoterm": "FCA",
+  "currency": "USD",
+  "total_invoice_value": 15925.52,
+  "port_of_loading": "Shenzhen (Yantian)",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "CN",
+  "invoice_packages": 148,
+  "invoice_gross_weight_kg": 2436.8,
+  "packing": {
+   "packages": 148,
+   "package_type": "CRATE",
+   "gross_weight_kg": 2436.8,
+   "net_weight_kg": 2070,
+   "volume_cbm": 44.4
+  },
+  "lines": [
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 120,
+    "unit": "PCS",
+    "unit_price": 3.93,
+    "line_total": 471.6,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 180.98,
+    "line_total": 4343.52,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 20.56,
+    "line_total": 10280,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 3.46,
+    "line_total": 830.4,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

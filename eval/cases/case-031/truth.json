@@ -1,0 +1,43 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026349",
+  "invoice_date": "2026-07-27",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "59760384113"
+  },
+  "incoterm": "FCA",
+  "currency": "USD",
+  "total_invoice_value": 39.84,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "TH",
+  "invoice_packages": 2,
+  "invoice_gross_weight_kg": 24.82,
+  "packing": {
+   "packages": 2,
+   "package_type": "CTN",
+   "gross_weight_kg": 17.73,
+   "net_weight_kg": 14.4,
+   "volume_cbm": 0.08
+  },
+  "lines": [
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 1.66,
+    "line_total": 39.84,
+    "origin_country": "TH"
+   }
+  ]
+ },
+ "expected_flags": [
+  "weight_mismatch"
+ ]
+}

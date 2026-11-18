@@ -1,0 +1,26 @@
+BREMER KÜCHENTECHNIK GMBH
+EXPORT INVOICE
+
+Invoice number ........ EXP-2026855
+Invoice date .......... 2026-09-07
+Consignee ............. Coastline Retail Group Pty Ltd
+                        ABN: 33363430250
+Incoterm .............. CIF
+Currency .............. EUR
+Loading port .......... Hamburg
+Destination port ...... Brisbane
+Origin of goods ....... Germany
+
+Item 1: Solid acacia dining table 180cm
+   Tariff 9403.60.00 | 4 PCS @ 153,06 = 612,24
+Item 2: Wooden toy train set
+   Tariff 9503.00.90 | 24 SET @ 9,00 = 216,00
+Item 3: Laptop power adapter 65W
+   Tariff 8504.40.90 | 60 PCS @ 4,91 = 294,60
+Item 4: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 60 SET @ 35,57 = 2.134,20
+Item 5: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 100 PCS @ 14,33 = 1.433,00
+
+Invoice total (EUR): 4.690,04
+Shipment: 42 packages, gross 645,34 KGS

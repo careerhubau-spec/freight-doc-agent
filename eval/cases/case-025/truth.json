@@ -1,0 +1,52 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026537",
+  "invoice_date": "2026-09-08",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Ironbark Outdoor Pty Ltd",
+   "abn": "95221238096"
+  },
+  "incoterm": "FOB",
+  "currency": "JPY",
+  "total_invoice_value": 333120,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "JP",
+  "invoice_packages": 18,
+  "invoice_gross_weight_kg": 222.72,
+  "packing": {
+   "packages": 18,
+   "package_type": "CRATE",
+   "gross_weight_kg": 222.72,
+   "net_weight_kg": 186,
+   "volume_cbm": 0.72
+  },
+  "lines": [
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 702,
+    "line_total": 210600,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 2042,
+    "line_total": 122520,
+    "origin_country": "JP"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_abn"
+ ]
+}

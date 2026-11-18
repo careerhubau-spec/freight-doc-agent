@@ -1,0 +1,50 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026205",
+  "invoice_date": "2026-06-22",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Dandenong Trade Supplies Pty Ltd",
+   "abn": "45459710667"
+  },
+  "incoterm": "CFR",
+  "currency": "USD",
+  "total_invoice_value": 1169.52,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "IN",
+  "invoice_packages": 11,
+  "invoice_gross_weight_kg": 139.17,
+  "packing": {
+   "packages": 11,
+   "package_type": "CRATE",
+   "gross_weight_kg": 139.17,
+   "net_weight_kg": 116.4,
+   "volume_cbm": 0.44
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 9.98,
+    "line_total": 598.8,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 11.89,
+    "line_total": 570.72,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

@@ -1,0 +1,77 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026895",
+  "invoice_date": "2026-11-25",
+  "shipper": {
+   "name": "Bremer Küchentechnik GmbH",
+   "country": "DE"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "50963737094"
+  },
+  "incoterm": "CIF",
+  "currency": "EUR",
+  "total_invoice_value": 7041.34,
+  "port_of_loading": "Hamburg",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "DE",
+  "invoice_packages": 25,
+  "invoice_gross_weight_kg": 532.4,
+  "packing": {
+   "packages": 25,
+   "package_type": "PLT",
+   "gross_weight_kg": 532.4,
+   "net_weight_kg": 457.5,
+   "volume_cbm": 7.5
+  },
+  "lines": [
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 100,
+    "unit": "SET",
+    "unit_price": 3.7,
+    "line_total": 370,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 3.24,
+    "line_total": 777.6,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 100,
+    "unit": "PRS",
+    "unit_price": 50.35,
+    "line_total": 5035,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 129.56,
+    "line_total": 518.24,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 6.81,
+    "line_total": 340.5,
+    "origin_country": "DE"
+   }
+  ]
+ },
+ "expected_flags": []
+}

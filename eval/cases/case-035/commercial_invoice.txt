@@ -1,0 +1,10 @@
+INVOICE EXP-2026895 | 2026-11-25 | CIF | EUR
+From: Bremer Küchentechnik GmbH (Germany)  To: Coastline Retail Group Pty Ltd ABN 50963737094
+Route: Hamburg -> Melbourne | Made in Germany
+* Wooden toy train set; HS 9503.00.90; 100 SET x 3,70 = 370,00
+* Cotton crew-neck T-shirt; HS 6109.10.00; 240 PCS x 3,24 = 777,60
+* Men's leather derby shoe; HS 6403.99.00; 100 PRS x 50,35 = 5.035,00
+* Solid acacia dining table 180cm; HS 9403.60.00; 4 PCS x 129,56 = 518,24
+* Laptop power adapter 65W; HS 8504.40.90; 50 PCS x 6,81 = 340,50
+Amount due: EUR 7.041,34
+Pkgs 25 / G.W. 532,40 kg

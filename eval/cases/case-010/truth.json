@@ -1,0 +1,68 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026457",
+  "invoice_date": "2026-06-08",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Dandenong Trade Supplies Pty Ltd",
+   "abn": "66359354979"
+  },
+  "incoterm": "FCA",
+  "currency": "USD",
+  "total_invoice_value": 1509.48,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "IN",
+  "invoice_packages": 27,
+  "invoice_gross_weight_kg": 313.7,
+  "packing": {
+   "packages": 27,
+   "package_type": "PLT",
+   "gross_weight_kg": 313.7,
+   "net_weight_kg": 260.8,
+   "volume_cbm": 1.08
+  },
+  "lines": [
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 4.1,
+    "line_total": 98.4,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 120,
+    "unit": "PCS",
+    "unit_price": 1.36,
+    "line_total": 163.2,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 100,
+    "unit": "SET",
+    "unit_price": 5.79,
+    "line_total": 579,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 27.87,
+    "line_total": 668.88,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

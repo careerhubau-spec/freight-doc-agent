@@ -1,0 +1,43 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026084",
+  "invoice_date": "2026-10-05",
+  "shipper": {
+   "name": "Calzaturificio Monteverde S.r.l.",
+   "country": "IT"
+  },
+  "consignee": {
+   "name": "Ironbark Outdoor Pty Ltd",
+   "abn": "84736842504"
+  },
+  "incoterm": "DAP",
+  "currency": "EUR",
+  "total_invoice_value": 2650,
+  "port_of_loading": "La Spezia",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "IT",
+  "invoice_packages": 10,
+  "invoice_gross_weight_kg": 91.84,
+  "packing": {
+   "packages": 10,
+   "package_type": "CRATE",
+   "gross_weight_kg": 131.2,
+   "net_weight_kg": 110,
+   "volume_cbm": 0.6
+  },
+  "lines": [
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 100,
+    "unit": "PRS",
+    "unit_price": 26.5,
+    "line_total": 2650,
+    "origin_country": "IT"
+   }
+  ]
+ },
+ "expected_flags": [
+  "weight_mismatch"
+ ]
+}

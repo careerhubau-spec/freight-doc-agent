@@ -1,0 +1,79 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026162",
+  "invoice_date": "2026-07-24",
+  "shipper": {
+   "name": "Shenzhen Brightpath Electronics Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "56952350848"
+  },
+  "incoterm": "FCA",
+  "currency": "USD",
+  "total_invoice_value": 11116.6,
+  "port_of_loading": "Shenzhen (Yantian)",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "CN",
+  "invoice_packages": 53,
+  "invoice_gross_weight_kg": 746.56,
+  "packing": {
+   "packages": 54,
+   "package_type": "CRATE",
+   "gross_weight_kg": 746.56,
+   "net_weight_kg": 628,
+   "volume_cbm": 3.24
+  },
+  "lines": [
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 2.78,
+    "line_total": 278,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 5.24,
+    "line_total": 1048,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 21.55,
+    "line_total": 2155,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 120,
+    "unit": "SET",
+    "unit_price": 7.84,
+    "line_total": 940.8,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 120,
+    "unit": "PRS",
+    "unit_price": 55.79,
+    "line_total": 6694.8,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "package_mismatch"
+ ]
+}

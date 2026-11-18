@@ -1,0 +1,18 @@
+COMMERCIAL INVOICE
+Seller / Exporter: Calzaturificio Monteverde S.r.l., Italy
+Buyer / Importer: Southbank Home Goods Pty Ltd, Victoria, Australia   ABN 80 197 692 019
+Invoice No: INV-2026593      Date: 19.11.2026
+Terms of Delivery: CIF Melbourne      Currency: EUR
+Port of Loading: La Spezia      Port of Discharge: Melbourne, Australia
+Country of Origin: Italy
+
+Description                         HS Code         Qty Unit   Unit Price        Amount
+--------------------------------------------------------------------------------------
+Solid acacia dining table 180cm     9403.60.00        6 PCS        162,53        975,18
+Laptop power adapter 65W            8504.40.90       60 PCS          4,32        259,20
+Wooden toy train set                9503.00.90       48 SET         10,75        516,00
+--------------------------------------------------------------------------------------
+                                                           TOTAL CIF EUR      1.750,38
+
+Total packages: 10     Total gross weight: 358,37 kg
+We certify this invoice is true and correct.

@@ -1,0 +1,59 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026752",
+  "invoice_date": "2026-11-21",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "32177588985"
+  },
+  "incoterm": "EXW",
+  "currency": "USD",
+  "total_invoice_value": 3026.64,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "IN",
+  "invoice_packages": 10,
+  "invoice_gross_weight_kg": 260.9,
+  "packing": {
+   "packages": 10,
+   "package_type": "CTN",
+   "gross_weight_kg": 260.9,
+   "net_weight_kg": 225.8,
+   "volume_cbm": 3
+  },
+  "lines": [
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 48,
+    "unit": "PRS",
+    "unit_price": 42.78,
+    "line_total": 2053.44,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 142.35,
+    "line_total": 569.4,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 6.73,
+    "line_total": 403.8,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

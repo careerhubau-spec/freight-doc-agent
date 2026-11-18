@@ -1,0 +1,22 @@
+SAIGON TIMBERLINE FURNITURE JSC
+EXPORT INVOICE
+
+Invoice number ........ PI-2026293
+Invoice date .......... 25/10/2026
+Consignee ............. Ironbark Outdoor Pty Ltd
+                        ABN: 62571205451
+Incoterm .............. CFR
+Currency .............. USD
+Loading port .......... Ho Chi Minh City (Cat Lai)
+Destination port ...... Melbourne
+Origin of goods ....... Viet Nam
+
+Item 1: Plastic storage container 12L
+   Tariff 3926.90.99 | 300 PCS @ 0.94 = 282.00
+Item 2: Laptop power adapter 65W
+   Tariff 8504.40.90 | 48 PCS @ 3.50 = 168.00
+Item 3: Solid acacia dining table 180cm
+   Tariff 9403.60.00 | 20 PCS @ 165.47 = 3,309.40
+
+Invoice total (USD): 3,759.40
+Shipment: 19 packages, gross 1,086.82 KGS

@@ -1,0 +1,59 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026860",
+  "invoice_date": "2026-10-12",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "61885723009"
+  },
+  "incoterm": "CIF",
+  "currency": "USD",
+  "total_invoice_value": 3038.72,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "IN",
+  "invoice_packages": 55,
+  "invoice_gross_weight_kg": 516.19,
+  "packing": {
+   "packages": 55,
+   "package_type": "PLT",
+   "gross_weight_kg": 516.19,
+   "net_weight_kg": 421.6,
+   "volume_cbm": 3.3
+  },
+  "lines": [
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 4.21,
+    "line_total": 842,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 1.74,
+    "line_total": 522,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 34.89,
+    "line_total": 1674.72,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

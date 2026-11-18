@@ -1,0 +1,43 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026868",
+  "invoice_date": "2026-06-10",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "80907847736"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 2014,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": null,
+  "invoice_packages": 34,
+  "invoice_gross_weight_kg": 228.8,
+  "packing": {
+   "packages": 34,
+   "package_type": "CTN",
+   "gross_weight_kg": 228.8,
+   "net_weight_kg": 180,
+   "volume_cbm": 10.2
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 10.07,
+    "line_total": 2014,
+    "origin_country": null
+   }
+  ]
+ },
+ "expected_flags": [
+  "missing_origin"
+ ]
+}

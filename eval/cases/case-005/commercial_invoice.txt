@@ -1,0 +1,26 @@
+SAIGON TIMBERLINE FURNITURE JSC
+EXPORT INVOICE
+
+Invoice number ........ INV-2026946
+Invoice date .......... 09.07.2026
+Consignee ............. Westgate Kitchen Co Pty Ltd
+                        ABN: 80487466420
+Incoterm .............. FOB
+Currency .............. USD
+Loading port .......... Ho Chi Minh City (Cat Lai)
+Destination port ...... Brisbane
+Origin of goods ....... Viet Nam
+
+Item 1: Men's leather derby shoe
+   Tariff 6403.99.00 | 100 PRS @ 35.65 = 3,565.00
+Item 2: Laptop power adapter 65W
+   Tariff 8504.40.90 | 48 PCS @ 3.93 = 188.64
+Item 3: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 240 PCS @ 15.33 = 3,679.20
+Item 4: Solid acacia dining table 180cm
+   Tariff 9403.60.00 | 4 PCS @ 208.77 = 835.08
+Item 5: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 200 SET @ 40.98 = 8,196.00
+
+Invoice total (USD): 16,463.92
+Shipment: 30 packages, gross 1,518.98 KGS

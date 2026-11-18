@@ -1,0 +1,80 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026050",
+  "invoice_date": "2026-10-07",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Ironbark Outdoor Pty Ltd",
+   "abn": "34115300885"
+  },
+  "incoterm": "CFR",
+  "currency": "USD",
+  "total_invoice_value": 5757.48,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Melbourne",
+  "origin_country": null,
+  "invoice_packages": 88,
+  "invoice_gross_weight_kg": 807.23,
+  "packing": {
+   "packages": 87,
+   "package_type": "CTN",
+   "gross_weight_kg": 807.23,
+   "net_weight_kg": 658.6,
+   "volume_cbm": 3.48
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 31.61,
+    "line_total": 1517.28,
+    "origin_country": null
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 9.67,
+    "line_total": 1934,
+    "origin_country": null
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 120,
+    "unit": "PCS",
+    "unit_price": 3.21,
+    "line_total": 385.2,
+    "origin_country": null
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 100,
+    "unit": "SET",
+    "unit_price": 8.05,
+    "line_total": 805,
+    "origin_country": null
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 50,
+    "unit": "PCS",
+    "unit_price": 22.32,
+    "line_total": 1116,
+    "origin_country": null
+   }
+  ]
+ },
+ "expected_flags": [
+  "missing_origin",
+  "package_mismatch"
+ ]
+}

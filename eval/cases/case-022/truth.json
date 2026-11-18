@@ -1,0 +1,61 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026586",
+  "invoice_date": "2026-09-04",
+  "shipper": {
+   "name": "Tirupur Organic Knits Pvt Ltd",
+   "country": "IN"
+  },
+  "consignee": {
+   "name": "Dandenong Trade Supplies Pty Ltd",
+   "abn": "97644821524"
+  },
+  "incoterm": "EXW",
+  "currency": "USD",
+  "total_invoice_value": 12276,
+  "port_of_loading": "Chennai",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": "IN",
+  "invoice_packages": 150,
+  "invoice_gross_weight_kg": 2068.8,
+  "packing": {
+   "packages": 150,
+   "package_type": "CTN",
+   "gross_weight_kg": 2068.8,
+   "net_weight_kg": 1740,
+   "volume_cbm": 9
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 100,
+    "unit": "SET",
+    "unit_price": 31.32,
+    "line_total": 3132,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 7.88,
+    "line_total": 2364,
+    "origin_country": "IN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 13.56,
+    "line_total": 6780,
+    "origin_country": "IN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_hs"
+ ]
+}

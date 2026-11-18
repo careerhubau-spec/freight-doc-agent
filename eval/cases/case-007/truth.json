@@ -1,0 +1,61 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026447",
+  "invoice_date": "2026-09-06",
+  "shipper": {
+   "name": "Siam Coastal Textiles Co., Ltd",
+   "country": "TH"
+  },
+  "consignee": {
+   "name": "Harbourline Imports Pty Ltd",
+   "abn": "64901182115"
+  },
+  "incoterm": "DAP",
+  "currency": "USD",
+  "total_invoice_value": 4270.68,
+  "port_of_loading": "Laem Chabang",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "TH",
+  "invoice_packages": 17,
+  "invoice_gross_weight_kg": 553.89,
+  "packing": {
+   "packages": 17,
+   "package_type": "CRATE",
+   "gross_weight_kg": 553.89,
+   "net_weight_kg": 482.4,
+   "volume_cbm": 1.53
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 50,
+    "unit": "SET",
+    "unit_price": 42.14,
+    "line_total": 2107,
+    "origin_country": "TH"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 17.96,
+    "line_total": 1796,
+    "origin_country": "TH"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 7.66,
+    "line_total": 367.68,
+    "origin_country": "TH"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_abn"
+ ]
+}

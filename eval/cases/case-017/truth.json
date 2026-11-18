@@ -1,0 +1,59 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026459",
+  "invoice_date": "2026-09-03",
+  "shipper": {
+   "name": "Bremer Küchentechnik GmbH",
+   "country": "DE"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "39319080492"
+  },
+  "incoterm": "CFR",
+  "currency": "EUR",
+  "total_invoice_value": 4406.5,
+  "port_of_loading": "Hamburg",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "DE",
+  "invoice_packages": 33,
+  "invoice_gross_weight_kg": 832.8,
+  "packing": {
+   "packages": 33,
+   "package_type": "CTN",
+   "gross_weight_kg": 832.8,
+   "net_weight_kg": 720,
+   "volume_cbm": 1.32
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 50,
+    "unit": "SET",
+    "unit_price": 22.75,
+    "line_total": 1137.5,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 1.74,
+    "line_total": 174,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 6.19,
+    "line_total": 3095,
+    "origin_country": "DE"
+   }
+  ]
+ },
+ "expected_flags": []
+}

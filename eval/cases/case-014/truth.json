@@ -1,0 +1,62 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026365",
+  "invoice_date": "2026-10-23",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "18011502429"
+  },
+  "incoterm": "FOB",
+  "currency": "JPY",
+  "total_invoice_value": 1309460,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "JP",
+  "invoice_packages": 24,
+  "invoice_gross_weight_kg": 1316.16,
+  "packing": {
+   "packages": 24,
+   "package_type": "CTN",
+   "gross_weight_kg": 1316.16,
+   "net_weight_kg": 1354.16,
+   "volume_cbm": 7.2
+  },
+  "lines": [
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 917,
+    "line_total": 184400,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 24710,
+    "line_total": 593040,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 60,
+    "unit": "PRS",
+    "unit_price": 8867,
+    "line_total": 532020,
+    "origin_country": "JP"
+   }
+  ]
+ },
+ "expected_flags": [
+  "gross_lt_net",
+  "line_math"
+ ]
+}

@@ -1,0 +1,10 @@
+INVOICE INV-2026162 | 24/07/2026 | FCA | USD
+From: Shenzhen Brightpath Electronics Ltd (China)  To: Coastline Retail Group Pty Ltd ABN 56952350848
+Route: Shenzhen (Yantian) -> Fremantle | Made in China
+* Plastic storage container 12L; HS 3926.90.99; 100 PCS x 2.78 = 278.00
+* Laptop power adapter 65W; HS 8504.40.90; 200 PCS x 5.24 = 1,048.00
+* Electric drip coffee maker 1.5L; HS 8516.71.00; 100 PCS x 21.55 = 2,155.00
+* Wooden toy train set; HS 9503.00.90; 120 SET x 7.84 = 940.80
+* Men's leather derby shoe; HS 6403.99.00; 120 PRS x 55.79 = 6,694.80
+Amount due: USD 11,116.60
+Pkgs 53 / G.W. 746.56 kg

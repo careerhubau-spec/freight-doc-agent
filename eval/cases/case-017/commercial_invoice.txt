@@ -1,0 +1,22 @@
+BREMER KÜCHENTECHNIK GMBH
+EXPORT INVOICE
+
+Invoice number ........ EXP-2026459
+Invoice date .......... 2026-09-03
+Consignee ............. Southbank Home Goods Pty Ltd
+                        ABN: 39319080492
+Incoterm .............. CFR
+Currency .............. EUR
+Loading port .......... Hamburg
+Destination port ...... Melbourne
+Origin of goods ....... Germany
+
+Item 1: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 50 SET @ 22,75 = 1.137,50
+Item 2: Plastic storage container 12L
+   Tariff 3926.90.99 | 100 PCS @ 1,74 = 174,00
+Item 3: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 500 PCS @ 6,19 = 3.095,00
+
+Invoice total (EUR): 4.406,50
+Shipment: 33 packages, gross 832,80 KGS

@@ -1,0 +1,22 @@
+CALZATURIFICIO MONTEVERDE S.R.L.
+EXPORT INVOICE
+
+Invoice number ........ CI-2026843
+Invoice date .......... 8 Jun 2026
+Consignee ............. Westgate Kitchen Co Pty Ltd
+                        ABN: 79180288278
+Incoterm .............. FOB
+Currency .............. EUR
+Loading port .......... La Spezia
+Destination port ...... Sydney (Port Botany)
+Origin of goods ....... Italy
+
+Item 1: Wooden toy train set
+   Tariff 9503.00.90 | 50 SET @ 8,77 = 438,50
+Item 2: Solid acacia dining table 180cm
+   Tariff 9403.60.00 | 8 PCS @ 93,21 = 745,68
+Item 3: Plastic storage container 12L
+   Tariff 3926.90.99 | 100 PCS @ 2,07 = 207,00
+
+Invoice total (EUR): 1.391,18
+Shipment: 16 packages, gross 493,28 KGS

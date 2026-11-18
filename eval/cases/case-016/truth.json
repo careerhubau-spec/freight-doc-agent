@@ -1,0 +1,77 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026503",
+  "invoice_date": "2026-11-23",
+  "shipper": {
+   "name": "Ningbo Everbright Housewares Co., Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "74554479285"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 9450.96,
+  "port_of_loading": "Ningbo",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "CN",
+  "invoice_packages": 109,
+  "invoice_gross_weight_kg": 1159.49,
+  "packing": {
+   "packages": 109,
+   "package_type": "CRATE",
+   "gross_weight_kg": 1159.49,
+   "net_weight_kg": 957.4,
+   "volume_cbm": 9.81
+  },
+  "lines": [
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 120,
+    "unit": "SET",
+    "unit_price": 22.63,
+    "line_total": 2715.6,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 28.59,
+    "line_total": 686.16,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 3.03,
+    "line_total": 727.2,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 6.58,
+    "line_total": 3290,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 10.16,
+    "line_total": 2032,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

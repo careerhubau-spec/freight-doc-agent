@@ -1,0 +1,79 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026686",
+  "invoice_date": "2026-09-13",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "14052028321"
+  },
+  "incoterm": "FCA",
+  "currency": "JPY",
+  "total_invoice_value": 2177656,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "JP",
+  "invoice_packages": 39,
+  "invoice_gross_weight_kg": 1412.38,
+  "packing": {
+   "packages": 39,
+   "package_type": "CTN",
+   "gross_weight_kg": 1412.38,
+   "net_weight_kg": 1233.2,
+   "volume_cbm": 3.51
+  },
+  "lines": [
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 2505,
+    "line_total": 60120,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 785,
+    "line_total": 18840,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Cordless drill driver 18V",
+    "hs_code": "8467.21.00",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 3582,
+    "line_total": 1792000,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 1503,
+    "line_total": 300600,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 24,
+    "unit": "PCS",
+    "unit_price": 254,
+    "line_total": 6096,
+    "origin_country": "JP"
+   }
+  ]
+ },
+ "expected_flags": [
+  "line_math"
+ ]
+}

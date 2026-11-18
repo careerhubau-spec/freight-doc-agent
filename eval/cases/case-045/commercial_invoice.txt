@@ -1,0 +1,24 @@
+SHENZHEN BRIGHTPATH ELECTRONICS LTD
+EXPORT INVOICE
+
+Invoice number ........ EXP-2026772
+Invoice date .......... 25.06.2026
+Consignee ............. Dandenong Trade Supplies Pty Ltd
+                        ABN: 22360940168
+Incoterm .............. EXW
+Currency .............. USD
+Loading port .......... Shenzhen (Yantian)
+Destination port ...... Brisbane
+Origin of goods ....... China
+
+Item 1: Wooden toy train set
+   Tariff 9503.00.90 | 500 SET @ 4.68 = 2,340.00
+Item 2: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 120 SET @ 27.20 = 3,264.00
+Item 3: Electric drip coffee maker 1.5L
+   Tariff 8516.71.00 | 300 PCS @ 16.71 = 5,013.00
+Item 4: Laptop power adapter 65W
+   Tariff 8504.40.90 | 100 PCS @ 3.11 = 311.00
+
+Invoice total (USD): 10,928.00
+Shipment: 102 packages, gross 2,118.88 KGS

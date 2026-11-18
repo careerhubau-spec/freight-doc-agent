@@ -1,0 +1,53 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026401",
+  "invoice_date": "2026-06-14",
+  "shipper": {
+   "name": "Bremer Küchentechnik GmbH",
+   "country": "DE"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "96888428474"
+  },
+  "incoterm": "FOB",
+  "currency": "EUR",
+  "total_invoice_value": 992.8,
+  "port_of_loading": "Hamburg",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "DE",
+  "invoice_packages": 29,
+  "invoice_gross_weight_kg": 377.22,
+  "packing": {
+   "packages": 28,
+   "package_type": "CRATE",
+   "gross_weight_kg": 377.22,
+   "net_weight_kg": 316.8,
+   "volume_cbm": 1.12
+  },
+  "lines": [
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 1.4,
+    "line_total": 700,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 6.1,
+    "line_total": 292.8,
+    "origin_country": "DE"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_hs",
+  "package_mismatch"
+ ]
+}

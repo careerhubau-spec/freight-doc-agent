@@ -1,0 +1,59 @@
+{
+ "truth": {
+  "invoice_number": "PI-2026293",
+  "invoice_date": "2026-10-25",
+  "shipper": {
+   "name": "Saigon Timberline Furniture JSC",
+   "country": "VN"
+  },
+  "consignee": {
+   "name": "Ironbark Outdoor Pty Ltd",
+   "abn": "62571205451"
+  },
+  "incoterm": "CFR",
+  "currency": "USD",
+  "total_invoice_value": 3759.4,
+  "port_of_loading": "Ho Chi Minh City (Cat Lai)",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "VN",
+  "invoice_packages": 19,
+  "invoice_gross_weight_kg": 1086.82,
+  "packing": {
+   "packages": 19,
+   "package_type": "CTN",
+   "gross_weight_kg": 1086.82,
+   "net_weight_kg": 956.8,
+   "volume_cbm": 0.76
+  },
+  "lines": [
+   {
+    "description": "Plastic storage container 12L",
+    "hs_code": "3926.90.99",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 0.94,
+    "line_total": 282,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 3.5,
+    "line_total": 168,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 20,
+    "unit": "PCS",
+    "unit_price": 165.47,
+    "line_total": 3309.4,
+    "origin_country": "VN"
+   }
+  ]
+ },
+ "expected_flags": []
+}

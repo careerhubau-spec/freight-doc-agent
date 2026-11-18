@@ -1,0 +1,28 @@
+{
+  "name": "freight-doc-agent",
+  "version": "1.0.0",
+  "description": "Reads a commercial invoice and packing list, builds a shipment entry, and flags discrepancies before they become customs delays.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "generate": "node eval/generate.js",
+    "eval": "node eval/run.js",
+    "start": "node src/cli.js",
+    "demo": "node src/server.js",
+    "record": "node demo/record.mjs demo/video"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026593",
+  "invoice_date": "2026-11-19",
+  "shipper": {
+   "name": "Calzaturificio Monteverde S.r.l.",
+   "country": "IT"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "80197692019"
+  },
+  "incoterm": "CIF",
+  "currency": "EUR",
+  "total_invoice_value": 1750.38,
+  "port_of_loading": "La Spezia",
+  "port_of_discharge": "Melbourne",
+  "origin_country": "IT",
+  "invoice_packages": 10,
+  "invoice_gross_weight_kg": 358.37,
+  "packing": {
+   "packages": 12,
+   "package_type": "CRATE",
+   "gross_weight_kg": 358.37,
+   "net_weight_kg": 311.4,
+   "volume_cbm": 1.08
+  },
+  "lines": [
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 6,
+    "unit": "PCS",
+    "unit_price": 162.53,
+    "line_total": 975.18,
+    "origin_country": "IT"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 4.32,
+    "line_total": 259.2,
+    "origin_country": "IT"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 10.75,
+    "line_total": 516,
+    "origin_country": "IT"
+   }
+  ]
+ },
+ "expected_flags": [
+  "package_mismatch"
+ ]
+}

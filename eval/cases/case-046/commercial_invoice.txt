@@ -1,0 +1,9 @@
+INVOICE CI-2026379 | 28.09.2026 | FCA | USD
+From: Shenzhen Brightpath Electronics Ltd (China)  To: Southbank Home Goods Pty Ltd ABN 48888440922
+Route: Shenzhen (Yantian) -> Melbourne | Made in China
+* Cotton crew-neck T-shirt; HS 6109.10.00; 120 PCS x 3.93 = 471.60
+* Solid acacia dining table 180cm; HS 9403.60.00; 24 PCS x 180.98 = 4,343.52
+* Electric drip coffee maker 1.5L; HS 8516.71.00; 500 PCS x 20.56 = 10,280.00
+* Laptop power adapter 65W; HS 8504.40.90; 240 PCS x 3.46 = 830.40
+Amount due: USD 15,925.52
+Pkgs 148 / G.W. 2,436.80 kg

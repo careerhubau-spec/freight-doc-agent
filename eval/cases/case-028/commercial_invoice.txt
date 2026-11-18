@@ -1,0 +1,16 @@
+COMMERCIAL INVOICE
+Seller / Exporter: Shenzhen Brightpath Electronics Ltd, China
+Buyer / Importer: Harbourline Imports Pty Ltd, Victoria, Australia   ABN 10634694632
+Invoice No: INV-2026994      Date: 27 Oct 2026
+Terms of Delivery: CIF Melbourne      Currency: USD
+Port of Loading: Shenzhen (Yantian)      Port of Discharge: Melbourne, Australia
+
+Description                         HS Code         Qty Unit   Unit Price        Amount
+--------------------------------------------------------------------------------------
+Polyester travel backpack 30L       4202.92.00       50 PCS         16.31        815.50
+Laptop power adapter 65W            8504.40.90       50 PCS          6.05        302.50
+--------------------------------------------------------------------------------------
+                                                           TOTAL CIF USD      1,118.00
+
+Total packages: 17     Total gross weight: 83.60 kg
+We certify this invoice is true and correct.

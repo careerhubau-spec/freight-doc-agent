@@ -1,0 +1,22 @@
+SAIGON TIMBERLINE FURNITURE JSC
+EXPORT INVOICE
+
+Invoice number ........ EXP-2026378
+Invoice date .......... 09/11/2026
+Consignee ............. Harbourline Imports Pty Ltd
+                        ABN: 27589822895
+Incoterm .............. FOB
+Currency .............. USD
+Loading port .......... Ho Chi Minh City (Cat Lai)
+Destination port ...... Fremantle
+Origin of goods ....... Viet Nam
+
+Item 1: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 200 SET @ 34.13 = 6,826.00
+Item 2: Electric drip coffee maker 1.5L
+   Tariff 8516.71.00 | 48 PCS @ 19.07 = 915.36
+Item 3: Cotton crew-neck T-shirt
+   Tariff 6109.10 | 240 PCS @ 2.37 = 568.80
+
+Invoice total (USD): 8,310.16
+Shipment: 49 packages, gross 1,146.66 KGS

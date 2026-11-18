@@ -1,0 +1,79 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026244",
+  "invoice_date": "2026-07-08",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Southbank Home Goods Pty Ltd",
+   "abn": "27383534590"
+  },
+  "incoterm": "FOB",
+  "currency": "JPY",
+  "total_invoice_value": 2455480,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Sydney (Port Botany)",
+  "origin_country": "JP",
+  "invoice_packages": 58,
+  "invoice_gross_weight_kg": 1711.39,
+  "packing": {
+   "packages": 58,
+   "package_type": "CRATE",
+   "gross_weight_kg": 1711.39,
+   "net_weight_kg": 1486.6,
+   "volume_cbm": 5.22
+  },
+  "lines": [
+   {
+    "description": "Cotton crew-neck T-shirt",
+    "hs_code": "6109.10.00",
+    "quantity": 200,
+    "unit": "PCS",
+    "unit_price": 698,
+    "line_total": 139600,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 4535,
+    "line_total": 217680,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71",
+    "quantity": 500,
+    "unit": "PCS",
+    "unit_price": 3377,
+    "line_total": 1688500,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 987,
+    "line_total": 296100,
+    "origin_country": "JP"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 1136,
+    "line_total": 113600,
+    "origin_country": "JP"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_hs"
+ ]
+}

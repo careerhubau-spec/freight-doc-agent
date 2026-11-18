@@ -1,0 +1,52 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026701",
+  "invoice_date": "2026-10-10",
+  "shipper": {
+   "name": "Ningbo Everbright Housewares Co., Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "90527229477"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 2007.96,
+  "port_of_loading": "Ningbo",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "CN",
+  "invoice_packages": 9,
+  "invoice_gross_weight_kg": 208.93,
+  "packing": {
+   "packages": 9,
+   "package_type": "CRATE",
+   "gross_weight_kg": 167.14,
+   "net_weight_kg": 142.8,
+   "volume_cbm": 2.7
+  },
+  "lines": [
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 7.87,
+    "line_total": 377.76,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 27.17,
+    "line_total": 1630.2,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "weight_mismatch"
+ ]
+}

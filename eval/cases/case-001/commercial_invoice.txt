@@ -1,0 +1,6 @@
+INVOICE INV-2026454 | 20.08.2026 | DAP | USD
+From: Shenzhen Brightpath Electronics Ltd (China)  To: Harbourline Imports Pty Ltd ABN 69 261 420 949
+Route: Shenzhen (Yantian) -> Sydney (Port Botany)
+* Laptop power adapter 65W; HS 8504.40.90; 48 PCS x 5.73 = 275.04
+Amount due: USD 275.04
+Pkgs 5 / G.W. 22.82 kg

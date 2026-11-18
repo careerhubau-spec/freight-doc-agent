@@ -1,0 +1,24 @@
+OSAKA PRECISION TOOLS K.K.
+EXPORT INVOICE
+
+Invoice number ........ EXP-2026096
+Invoice date .......... 8 Nov 2026
+Consignee ............. Westgate Kitchen Co Pty Ltd
+                        ABN: 68 302 115 944
+Incoterm .............. EXW
+Currency .............. JPY
+Loading port .......... Osaka
+Destination port ...... Brisbane
+Origin of goods ....... Japan
+
+Item 1: Polyester travel backpack 30L
+   Tariff 4202.92.00 | 200 PCS @ 2,532 = 506,400
+Item 2: Cotton crew-neck T-shirt
+   Tariff 6109.10.00 | 50 PCS @ 363 = 18,150
+Item 3: Men's leather derby shoe
+   Tariff 6403.99.00 | 60 PRS @ 4,068 = 244,080
+Item 4: Plastic storage container 12L
+   Tariff 3926.90.99 | 60 PCS @ 255 = 15,300
+
+Invoice total (JPY): 783,930
+Shipment: 19 packages, gross 342.24 KGS

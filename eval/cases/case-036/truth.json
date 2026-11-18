@@ -1,0 +1,61 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026907",
+  "invoice_date": "2026-08-18",
+  "shipper": {
+   "name": "Ningbo Everbright Housewares Co., Ltd",
+   "country": "CN"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "85211681659"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 5375.8,
+  "port_of_loading": "Ningbo",
+  "port_of_discharge": "Fremantle",
+  "origin_country": "CN",
+  "invoice_packages": 79,
+  "invoice_gross_weight_kg": 720.64,
+  "packing": {
+   "packages": 79,
+   "package_type": "CRATE",
+   "gross_weight_kg": 720.64,
+   "net_weight_kg": 587,
+   "volume_cbm": 3.16
+  },
+  "lines": [
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 50,
+    "unit": "SET",
+    "unit_price": 7.7,
+    "line_total": 385,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 11.24,
+    "line_total": 3372,
+    "origin_country": "CN"
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 120,
+    "unit": "PCS",
+    "unit_price": 13.49,
+    "line_total": 1618.8,
+    "origin_country": "CN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "bad_abn"
+ ]
+}

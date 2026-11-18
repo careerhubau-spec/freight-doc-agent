@@ -1,0 +1,77 @@
+{
+ "truth": {
+  "invoice_number": "EXP-2026855",
+  "invoice_date": "2026-09-07",
+  "shipper": {
+   "name": "Bremer Küchentechnik GmbH",
+   "country": "DE"
+  },
+  "consignee": {
+   "name": "Coastline Retail Group Pty Ltd",
+   "abn": "33363430250"
+  },
+  "incoterm": "CIF",
+  "currency": "EUR",
+  "total_invoice_value": 4690.04,
+  "port_of_loading": "Hamburg",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "DE",
+  "invoice_packages": 42,
+  "invoice_gross_weight_kg": 645.34,
+  "packing": {
+   "packages": 42,
+   "package_type": "CTN",
+   "gross_weight_kg": 645.34,
+   "net_weight_kg": 546.2,
+   "volume_cbm": 1.68
+  },
+  "lines": [
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 153.06,
+    "line_total": 612.24,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 24,
+    "unit": "SET",
+    "unit_price": 9,
+    "line_total": 216,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 4.91,
+    "line_total": 294.6,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 60,
+    "unit": "SET",
+    "unit_price": 35.57,
+    "line_total": 2134.2,
+    "origin_country": "DE"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 100,
+    "unit": "PCS",
+    "unit_price": 14.33,
+    "line_total": 1433,
+    "origin_country": "DE"
+   }
+  ]
+ },
+ "expected_flags": []
+}

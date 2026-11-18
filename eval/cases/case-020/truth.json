@@ -1,0 +1,80 @@
+{
+ "truth": {
+  "invoice_number": "CI-2026626",
+  "invoice_date": "2026-11-03",
+  "shipper": {
+   "name": "Osaka Precision Tools K.K.",
+   "country": "JP"
+  },
+  "consignee": {
+   "name": "Dandenong Trade Supplies Pty Ltd",
+   "abn": "49115653562"
+  },
+  "incoterm": "DAP",
+  "currency": "JPY",
+  "total_invoice_value": 2572000,
+  "port_of_loading": "Osaka",
+  "port_of_discharge": "Fremantle",
+  "origin_country": null,
+  "invoice_packages": 142,
+  "invoice_gross_weight_kg": 1838.24,
+  "packing": {
+   "packages": 142,
+   "package_type": "PLT",
+   "gross_weight_kg": 1470.59,
+   "net_weight_kg": 1211.6,
+   "volume_cbm": 5.68
+  },
+  "lines": [
+   {
+    "description": "Cordless drill driver 18V",
+    "hs_code": "8467.21.00",
+    "quantity": 300,
+    "unit": "PCS",
+    "unit_price": 6122,
+    "line_total": 1836600,
+    "origin_country": null
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 48,
+    "unit": "SET",
+    "unit_price": 3605,
+    "line_total": 173040,
+    "origin_country": null
+   },
+   {
+    "description": "Electric drip coffee maker 1.5L",
+    "hs_code": "8516.71.00",
+    "quantity": 60,
+    "unit": "PCS",
+    "unit_price": 2046,
+    "line_total": 122760,
+    "origin_country": null
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 1130,
+    "line_total": 271200,
+    "origin_country": null
+   },
+   {
+    "description": "Wooden toy train set",
+    "hs_code": "9503.00.90",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 842,
+    "line_total": 168400,
+    "origin_country": null
+   }
+  ]
+ },
+ "expected_flags": [
+  "missing_origin",
+  "weight_mismatch"
+ ]
+}

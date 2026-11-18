@@ -1,0 +1,24 @@
+TIRUPUR ORGANIC KNITS PVT LTD
+EXPORT INVOICE
+
+Invoice number ........ INV-2026195
+Invoice date .......... 2026-06-16
+Consignee ............. Southbank Home Goods Pty Ltd
+                        ABN: 98344229491
+Incoterm .............. EXW
+Currency .............. USD
+Loading port .......... Chennai
+Destination port ...... Sydney (Port Botany)
+Origin of goods ....... India
+
+Item 1: Electric drip coffee maker 1.5L
+   Tariff 8516.71.00 | 48 PCS @ 21.96 = 1,054.08
+Item 2: Wooden toy train set
+   Tariff 9503.00.90 | 200 SET @ 8.59 = 1,718.00
+Item 3: Plastic storage container 12L
+   Tariff 3926.90.99 | 200 PCS @ 2.72 = 544.00
+Item 4: Stainless steel cookware set, 5 pc
+   Tariff 7323.93.00 | 120 SET @ 44.21 = 5,305.20
+
+Invoice total (USD): 8,621.28
+Shipment: 95 packages, gross 1,178.98 KGS

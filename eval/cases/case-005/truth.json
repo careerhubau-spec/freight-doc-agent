@@ -1,0 +1,79 @@
+{
+ "truth": {
+  "invoice_number": "INV-2026946",
+  "invoice_date": "2026-07-09",
+  "shipper": {
+   "name": "Saigon Timberline Furniture JSC",
+   "country": "VN"
+  },
+  "consignee": {
+   "name": "Westgate Kitchen Co Pty Ltd",
+   "abn": "80487466420"
+  },
+  "incoterm": "FOB",
+  "currency": "USD",
+  "total_invoice_value": 16463.92,
+  "port_of_loading": "Ho Chi Minh City (Cat Lai)",
+  "port_of_discharge": "Brisbane",
+  "origin_country": "VN",
+  "invoice_packages": 30,
+  "invoice_gross_weight_kg": 1518.98,
+  "packing": {
+   "packages": 30,
+   "package_type": "PLT",
+   "gross_weight_kg": 1518.98,
+   "net_weight_kg": 1550.98,
+   "volume_cbm": 2.7
+  },
+  "lines": [
+   {
+    "description": "Men's leather derby shoe",
+    "hs_code": "6403.99.00",
+    "quantity": 100,
+    "unit": "PRS",
+    "unit_price": 35.65,
+    "line_total": 3565,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Laptop power adapter 65W",
+    "hs_code": "8504.40.90",
+    "quantity": 48,
+    "unit": "PCS",
+    "unit_price": 3.93,
+    "line_total": 188.64,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Polyester travel backpack 30L",
+    "hs_code": "4202.92.00",
+    "quantity": 240,
+    "unit": "PCS",
+    "unit_price": 15.33,
+    "line_total": 3679.2,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Solid acacia dining table 180cm",
+    "hs_code": "9403.60.00",
+    "quantity": 4,
+    "unit": "PCS",
+    "unit_price": 208.77,
+    "line_total": 835.08,
+    "origin_country": "VN"
+   },
+   {
+    "description": "Stainless steel cookware set, 5 pc",
+    "hs_code": "7323.93.00",
+    "quantity": 200,
+    "unit": "SET",
+    "unit_price": 40.98,
+    "line_total": 8196,
+    "origin_country": "VN"
+   }
+  ]
+ },
+ "expected_flags": [
+  "gross_lt_net"
+ ]
+}
